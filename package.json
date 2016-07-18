@@ -1,0 +1,19 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "life's dashboard",
+  "main": "dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0d3rm0nk3y/dashboard.git"
+  },
+  "author": "datawahore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0d3rm0nk3y/dashboard/issues"
+  },
+  "homepage": "https://github.com/c0d3rm0nk3y/dashboard#readme"
+}
