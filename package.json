@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/c0d3rm0nk3y/dashboard/issues"
   },
-  "homepage": "https://github.com/c0d3rm0nk3y/dashboard#readme"
+  "homepage": "https://github.com/c0d3rm0nk3y/dashboard#readme",
+  "dependencies": {
+    "feed-read": "0.0.1",
+    "node-readability": "^2.2.0",
+    "q": "^1.4.1"
+  }
 }
