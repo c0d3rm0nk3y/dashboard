@@ -27,6 +27,16 @@ Install latest stable version of MongoDB
 
 `sudo apt-get install -y mongodb-org`
 
+Create \data\db\ folders
+
+`sudo mkdir \data`
+
+`sudo mkdir \data\db`
+
+Update Permissions
+
+`sudo chown -R `id -u` /data/db`
+
 #### Install Node
 ```
 >curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
