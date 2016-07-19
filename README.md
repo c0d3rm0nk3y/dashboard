@@ -9,6 +9,24 @@
 #### Install Curl
 `>sudo apt-get install curl`
 
+#### Install [Mongo](https://docs.mongodb.com/v3.0/tutorial/install-mongodb-on-ubuntu/)
+
+Import the public key used by the package management system.
+
+`sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10`
+
+Create a list file for MongoDB
+
+`echo "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse"`
+
+Reload local package database
+
+`sudo apt-get update`
+
+Install latest stable version of MongoDB
+
+`sudo apt-get install -y mongodb-org`
+
 #### Install Node
 ```
 >curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
@@ -48,3 +66,6 @@ then run command..
 
 `>sudo npm install`
 
+### Next Up, creating the code to pull down the news from RSS.
+
+### Next up, creating the code to pull down news from Google News
