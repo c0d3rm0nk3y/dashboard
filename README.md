@@ -61,12 +61,15 @@ Navigate to your applications root folder
 >sudo npm install --save feed-read
 
 >sudo npm install --save node-readability
+
+>sudo npm install html-convert --save
 ```
 
 #### Or update your package.json *dependencies* to this
 ```
   "dependencies": {
     "feed-read": "0.0.1",
+    "html-convert": "^2.1.7",
     "node-readability": "^2.2.0",
     "q": "^1.4.1"
   }
