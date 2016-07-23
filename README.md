@@ -67,13 +67,14 @@ Navigate to your applications root folder
 ```
   "dependencies": {
     "feed-read": "0.0.1",
+    "html-convert": "^2.1.7",
     "node-readability": "^2.2.0",
     "q": "^1.4.1"
   }
 ```
 
 then run command..
-
+  
 `>sudo npm install`
 
 ### Next Up, creating the code to pull down the news from RSS.
